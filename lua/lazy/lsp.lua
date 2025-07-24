@@ -17,6 +17,7 @@ return {
       LZN.trigger_load("blink.cmp")
     end,
     after = function()
+      vim.cmd.packadd("none-ls.nvim")
       local null_ls = require("null-ls")
 
       local code_actions = null_ls.builtins.code_actions
