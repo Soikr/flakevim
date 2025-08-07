@@ -1,0 +1,57 @@
+{
+  "pins": {
+    "kanagawa.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "rebelot",
+        "repo": "kanagawa.nvim"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "debe91547d7fb1eef34ce26a5106f277fbfdd109",
+      "url": "https://github.com/rebelot/kanagawa.nvim/archive/debe91547d7fb1eef34ce26a5106f277fbfdd109.tar.gz",
+      "hash": "02108bvbrd1a4n6kip7qk1xfzrg789cyd8xz4pi58400zr6j37lb"
+    },
+    "lz.n": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nvim-neorocks",
+        "repo": "lz.n"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "da88560e12afc0fdca3dd901282fd2b95836fbb8",
+      "url": "https://github.com/nvim-neorocks/lz.n/archive/da88560e12afc0fdca3dd901282fd2b95836fbb8.tar.gz",
+      "hash": "0a5kpy3yy5mrswq67wbzn2bf4rjdb0k6m26q888n597cld1ppj5q"
+    },
+    "nvim-web-devicons": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nvim-tree",
+        "repo": "nvim-web-devicons"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "3362099de3368aa620a8105b19ed04c2053e38c0",
+      "url": "https://github.com/nvim-tree/nvim-web-devicons/archive/3362099de3368aa620a8105b19ed04c2053e38c0.tar.gz",
+      "hash": "0px2r3gllpj1ml52l2vdfvslf4w5yhi1waxbm46pf06sn2rcnciv"
+    },
+    "plenary.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nvim-lua",
+        "repo": "plenary.nvim"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "b9fd5226c2f76c951fc8ed5923d85e4de065e509",
+      "url": "https://github.com/nvim-lua/plenary.nvim/archive/b9fd5226c2f76c951fc8ed5923d85e4de065e509.tar.gz",
+      "hash": "1kg043h7dqcrqqgg8pp6hsldx7jdhlh8qwad2kkckia191xgnjgm"
+    }
+  },
+  "version": 5
+}

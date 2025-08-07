@@ -1,0 +1,161 @@
+{
+  "pins": {
+    "aerial.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "stevearc",
+        "repo": "aerial.nvim"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "5c0df1679bf7c814c924dc6646cc5291daca8363",
+      "url": "https://github.com/stevearc/aerial.nvim/archive/5c0df1679bf7c814c924dc6646cc5291daca8363.tar.gz",
+      "hash": "1dhsg3bli32d0p36c9f1i95p7h9hn5czr1zwlcd3v926qzj9wp1j"
+    },
+    "crates.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "saecki",
+        "repo": "crates.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "a49df0f70171adc77704eac70dd2c0d179065933",
+      "url": "https://github.com/saecki/crates.nvim/archive/a49df0f70171adc77704eac70dd2c0d179065933.tar.gz",
+      "hash": "0g3rzy7nsa8p300sp2jzlxf573g1l5wprxwajqkb29kbdpbh93bg"
+    },
+    "fidget.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "j-hui",
+        "repo": "fidget.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "4ec7bed6c86b671ddde03ca1b227343cfa3e65fa",
+      "url": "https://github.com/j-hui/fidget.nvim/archive/4ec7bed6c86b671ddde03ca1b227343cfa3e65fa.tar.gz",
+      "hash": "03r0hcidlkckjx7bgs9hb4jkp2czq6i1nqaxgfcgq9bn5567n3vf"
+    },
+    "friendly-snippets": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "rafamadriz",
+        "repo": "friendly-snippets"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "572f5660cf05f8cd8834e096d7b4c921ba18e175",
+      "url": "https://github.com/rafamadriz/friendly-snippets/archive/572f5660cf05f8cd8834e096d7b4c921ba18e175.tar.gz",
+      "hash": "08q7vs7p4grav819b6hl5y9zla8bbb461b6m1w0mjz6n6rqjjc0p"
+    },
+    "lazydev.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "folke",
+        "repo": "lazydev.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "2367a6c0a01eb9edb0464731cc0fb61ed9ab9d2c",
+      "url": "https://github.com/folke/lazydev.nvim/archive/2367a6c0a01eb9edb0464731cc0fb61ed9ab9d2c.tar.gz",
+      "hash": "1v4m18j270rfbjrcn99fkbiwhlmmr9bm9lcbagp533kx4n57731f"
+    },
+    "luasnip": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "L3MON4D3",
+        "repo": "luasnip"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "de10d8414235b0a8cabfeba60d07c24304e71f5c",
+      "url": "https://github.com/L3MON4D3/luasnip/archive/de10d8414235b0a8cabfeba60d07c24304e71f5c.tar.gz",
+      "hash": "0pa171dx8rfi6d8xz7a3lfwkrgkxivhp09f1xj4vq8hzci6fl516"
+    },
+    "mini.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "echasnovski",
+        "repo": "mini.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "03387f53f1cb8c6a8ba0798041c6aa3525ed11ba",
+      "url": "https://github.com/echasnovski/mini.nvim/archive/03387f53f1cb8c6a8ba0798041c6aa3525ed11ba.tar.gz",
+      "hash": "1pzblnxx8p4qrhp68wfkp2hp8dh740n6v0ksy3qqsxg7a85flxd4"
+    },
+    "none-ls.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nvimtools",
+        "repo": "none-ls.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "5fcb73913a9290f78097e34420fe0e6130c5c33c",
+      "url": "https://github.com/nvimtools/none-ls.nvim/archive/5fcb73913a9290f78097e34420fe0e6130c5c33c.tar.gz",
+      "hash": "1z08ic5c8hknkqyivkpc4jvdqsispml0zllfnxhw59iyr48irw99"
+    },
+    "nvim-lspconfig": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "neovim",
+        "repo": "nvim-lspconfig"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "9141be4c1332afc83bdf1b0278dbb030f75ff8e3",
+      "url": "https://github.com/neovim/nvim-lspconfig/archive/9141be4c1332afc83bdf1b0278dbb030f75ff8e3.tar.gz",
+      "hash": "0617yxszaw1nq29s557vswaxmbgb8zbwl9xc2527rl406z08b48l"
+    },
+    "render-markdown.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "MeanderingProgrammer",
+        "repo": "render-markdown.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "5df2eab599e06c48d04ea7e89cbaa3cdb4e09538",
+      "url": "https://github.com/MeanderingProgrammer/render-markdown.nvim/archive/5df2eab599e06c48d04ea7e89cbaa3cdb4e09538.tar.gz",
+      "hash": "0gnsm10adgqbdmq4ypz70dfims9j7q3kapkd3a9161nk2fnald1r"
+    },
+    "telescope-file-browser.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nvim-telescope",
+        "repo": "telescope-file-browser.nvim"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "3610dc7dc91f06aa98b11dca5cc30dfa98626b7e",
+      "url": "https://github.com/nvim-telescope/telescope-file-browser.nvim/archive/3610dc7dc91f06aa98b11dca5cc30dfa98626b7e.tar.gz",
+      "hash": "0r5lpmiwpk0h8awsyc8h8cqqrgqm95qpc62a2cvsvhihjv1pnlhn"
+    },
+    "telescope.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nvim-telescope",
+        "repo": "telescope.nvim"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "b4da76be54691e854d3e0e02c36b0245f945c2c7",
+      "url": "https://github.com/nvim-telescope/telescope.nvim/archive/b4da76be54691e854d3e0e02c36b0245f945c2c7.tar.gz",
+      "hash": "161qlx099ymi62qsd89srda605ynks1sswx3djamrwqp3dxb9596"
+    }
+  },
+  "version": 5
+}

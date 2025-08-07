@@ -1,5 +1,6 @@
 return {
-  { "LuaSnip",
+  {
+    "LuaSnip",
     after = function()
       require("luasnip.loaders.from_vscode").lazy_load()
     end,
@@ -8,7 +9,7 @@ return {
   {
     "blink.cmp",
     event = "DeferredUIEnter",
-    before = function ()
+    before = function()
       LZN.trigger_load("lazydev.nvim")
     end,
     after = function()
@@ -53,6 +54,6 @@ return {
           ["<C-f>"] = { "scroll_documentation_down", "fallback" },
         },
       })
-    end
+    end,
   },
 }

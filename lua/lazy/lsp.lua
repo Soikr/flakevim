@@ -96,7 +96,7 @@ return {
                 callSnippet = "Replace",
               },
               diagnostics = {
-                globals = { "vim" },
+                globals = { "vim", "sbar" },
                 disable = { "missing-fields" },
               },
               workspace = {
