@@ -23,6 +23,7 @@ return {
       local code_actions = null_ls.builtins.code_actions
       local diagnostics = null_ls.builtins.diagnostics
       local formatting = null_ls.builtins.formatting
+      local completion = null_ls.builtins.completion
 
       local ls_sources = {
         formatting.stylua,
@@ -38,11 +39,9 @@ return {
         sources = ls_sources,
       })
 
-      local lspconfig = require("lspconfig")
       local capabilities = require("blink.cmp").get_lsp_capabilities()
 
       vim.diagnostic.config({
-        float = { border = "single" },
         update_in_insert = true,
         virtual_text = false,
         virtual_lines = { enable = true, current_line = true },
@@ -63,80 +62,78 @@ return {
         },
       })
 
-      local servers = {
-        nil_ls = {
-          auto_start = true,
-          settings = {
-            ["nil"] = {
-              formatting = {
-                command = { "alejandra", "--quiet" },
+      -- Nix (nil) config
+
+      vim.lsp.config("nil_ls", {
+        capabilities = capabilities,
+        cmd = { "nil" },
+        settings = {
+          ["nil"] = {
+            nix = {
+              binary = "nix",
+              maxMemoryMB = nil,
+              flake = {
+                autoEvalInputs = false,
+                autoArchive = false,
+                nixpkgsInputName = nil,
               },
-              nix = {
-                maxMemoryMB = nil,
-                flake = {
-                  autoEvalInputs = false,
-                  autoArchive = false,
-                  nixpkgsInputName = nil,
-                },
-              },
+            },
+            formatting = {
+              command = { "nixfmt", "--quiet" },
             },
           },
         },
-        lua_ls = {
-          auto_start = true,
-          settings = {
-            Lua = {
-              format = {
-                enable = true,
-              },
-              runtime = {
-                version = "LuaJIT",
-              },
-              completion = {
-                callSnippet = "Replace",
-              },
-              diagnostics = {
-                globals = { "vim", "sbar" },
-                disable = { "missing-fields" },
-              },
-              workspace = {
-                checkThirdParty = false,
-              },
-              telemetry = {
-                enable = false,
-              },
+      })
+      vim.lsp.enable("nil_ls")
+
+      -- Lua
+      vim.lsp.config("lua_ls", {
+        capabilities = capabilities,
+        on_init = function(client)
+          if client.workspace_folders then
+            local path = client.workspace_folders[1].name
+            if vim.uv.fs_stat(path .. "/.luarc.json") or vim.uv.fs_stat(path .. "/.luarc.jsonc") then
+              return
+            end
+          end
+
+          client.config.settings.Lua = vim.tbl_deep_extend("force", client.config.settings.Lua, {
+            format = {
+              enable = true,
             },
-          },
-        },
-        rust_analyzer = {
-          settings = {
-            ["rust-analyzer"] = {
-              imports = {
-                granularity = {
-                  group = "module",
-                },
-              },
-              cargo = {
-                buildScripts = {
-                  enable = true,
-                },
-              },
-              files = {
-                excludeDirs = { ".direnv" },
-              },
-              procMacro = {
-                enable = true,
-              },
+            runtime = {
+              version = "LuaJIT",
             },
-          },
+            telemetry = { enable = false },
+            workspace = {
+              checkThirdParty = false,
+            },
+            completion = {
+              callSnippet = "Replace",
+            },
+            diagnostics = {
+              disable = { "missing-fields" },
+            },
+          })
+        end,
+        settings = {
+          Lua = {},
         },
-        sourcekit = {},
-        pyright = {},
-      }
-      for name, server in pairs(servers) do
-        server.capabilities = vim.tbl_deep_extend("force", {}, capabilities, server.capabilities or {})
-        lspconfig[name].setup(server)
-      end
+      })
+
+      vim.lsp.enable("lua_ls")
+
+      vim.lsp.config("ccls", {
+        capabilities = capabilities,
+        cmd = { "ccls" },
+      })
+
+      vim.lsp.enable("ccls")
+
+      vim.lsp.config("jsonls", {
+        capabilities = capabilities,
+      })
+      vim.lsp.enable("jsonls")
     end,
 
     keys = {
