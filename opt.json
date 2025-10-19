@@ -74,9 +74,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "73813308abc2eaeff2bc0d3f2f79270c491be9d7",
-      "url": "https://github.com/L3MON4D3/luasnip/archive/73813308abc2eaeff2bc0d3f2f79270c491be9d7.tar.gz",
-      "hash": "0v2jp936b8x3qx3d84w5xrvldcrk8bp9cshcz7blswv0yp9h89xj"
+      "revision": "f958d9837c8fa7816bb8fb54977e658affc63c31",
+      "url": "https://github.com/L3MON4D3/luasnip/archive/f958d9837c8fa7816bb8fb54977e658affc63c31.tar.gz",
+      "hash": "0amwan0rzh91cbriqkawjvyqbnaw7irbqb1llnlghcf6pmgcgg4i"
     },
     "mini.nvim": {
       "type": "Git",
@@ -87,9 +87,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "d048db2ae04d8830b44c899b93e9052b2ad20fb7",
-      "url": "https://github.com/echasnovski/mini.nvim/archive/d048db2ae04d8830b44c899b93e9052b2ad20fb7.tar.gz",
-      "hash": "1zcb6gyzm0wnq5dkx8cqmri49v4s8k2slmmy216nz74sp447gp8b"
+      "revision": "8a7cf7eee8d89bd1b83f6d72f7f3b5598e7ae2cb",
+      "url": "https://github.com/echasnovski/mini.nvim/archive/8a7cf7eee8d89bd1b83f6d72f7f3b5598e7ae2cb.tar.gz",
+      "hash": "0dp3l2cxaiz76nsq2mw10jzhb8gppsa8syd40d9a342g0gmh8v27"
     },
     "none-ls.nvim": {
       "type": "Git",
@@ -100,9 +100,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "5cf63841461b49989972d35bf886e076a1ab3649",
-      "url": "https://github.com/nvimtools/none-ls.nvim/archive/5cf63841461b49989972d35bf886e076a1ab3649.tar.gz",
-      "hash": "16p9wipxm59rrlzwck9d7bp1i3f8yxn8kan1pddvkgr4sdmxxprf"
+      "revision": "a96172f673f720cd4f3572e1fcd08400ed3eb25d",
+      "url": "https://github.com/nvimtools/none-ls.nvim/archive/a96172f673f720cd4f3572e1fcd08400ed3eb25d.tar.gz",
+      "hash": "1gsd8bdcghzpc0isdp0s1mny695ppp75ylq8v56d4h7my1bpb2d8"
     },
     "nvim-lspconfig": {
       "type": "Git",
@@ -126,9 +126,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "d53856423be5ef3c267d26ee261b0981b372f718",
-      "url": "https://github.com/MeanderingProgrammer/render-markdown.nvim/archive/d53856423be5ef3c267d26ee261b0981b372f718.tar.gz",
-      "hash": "0biy2rb5da8xl4cijbadxg5k94pjwrwhp5d4j98p9k9g71hcglny"
+      "revision": "475d3ad8cae486b0df6fc6050cf5b5ea1de42db8",
+      "url": "https://github.com/MeanderingProgrammer/render-markdown.nvim/archive/475d3ad8cae486b0df6fc6050cf5b5ea1de42db8.tar.gz",
+      "hash": "0338an5ynjx36v1rql1s6pwmxzv85yvfa7gsa86fxsa76nf82wq5"
     },
     "telescope-file-browser.nvim": {
       "type": "Git",
