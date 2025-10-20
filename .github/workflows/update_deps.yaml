@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v5.0.0
-      - uses: cachix/install-nix-action@v31.8.0
+      - uses: cachix/install-nix-action@v31.8.1
       - name: setup git
         run: | 
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
