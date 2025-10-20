@@ -34,7 +34,7 @@ let
   nvim-flake = import (builtins.fetchTarball {
   # Get the revision by choosing a version from https://github.com/Soikr/flakevim/commits/master
   url = "https://github.com/Soikr/flakevim/archive/<revision>.tar.gz";
-  # Get the hash by running `nix-prefetch-url --unpack <url>` on the above <> 
+  # Get the hash by running `nix-prefetch-url --unpack <url>` on the above url
   sha256 = "<hash>";
 });
 in
@@ -66,13 +66,11 @@ in
 ## Updating
 You can run `nix flake update` for flakes, and `npins --lock-file <start/opt>.json update --full` for npins.
 
-Modify plugins with `npins --lock-file <start/opt>.json add/remove <github/source> <user> <repo-name>`
+Modify plugins with `npins --lock-file <start/opt>.json add/remove <github/source> <user> <repo>`
 
 Access devshell via `nix develop`
 
 ## Credits
 * [@Gerg-L's](https://github.com/Gerg-L) [nvim-flake](https://github.com/Gerg-L/nvim-flake)
 * [@llakala's](https://github.com/llakala) [meowvim](https://github.com/llakala/meovim)
-* [@frahz's](https://github.com/frahz) [nvim-flake](https://github.com/frahz/> [!NOTE]
-> vim-flake)
-
+* [@frahz's](https://github.com/frahz) [nvim-flake](https://github.com/frahz/nvim-flake)
