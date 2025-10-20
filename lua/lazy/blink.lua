@@ -2,10 +2,15 @@ return {
   {
     "LuaSnip",
     after = function()
+      require("luasnip").setup({})
+    end,
+  },
+  {
+    "friendly-snippets",
+    after = function()
       require("luasnip.loaders.from_vscode").lazy_load()
     end,
   },
-  { "friendly-snippets" },
   {
     "blink.cmp",
     event = "DeferredUIEnter",

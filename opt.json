@@ -65,19 +65,6 @@
       "url": "https://github.com/folke/lazydev.nvim/archive/e28ce52fc7ff79fcb76f0e79ee6fb6182fca90b9.tar.gz",
       "hash": "1jzpwh6r2zw27aygacbjgf2fsfvlxkbqwbcvmgcz4c16v53d9721"
     },
-    "luasnip": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "L3MON4D3",
-        "repo": "luasnip"
-      },
-      "branch": "master",
-      "submodules": false,
-      "revision": "f958d9837c8fa7816bb8fb54977e658affc63c31",
-      "url": "https://github.com/L3MON4D3/luasnip/archive/f958d9837c8fa7816bb8fb54977e658affc63c31.tar.gz",
-      "hash": "0amwan0rzh91cbriqkawjvyqbnaw7irbqb1llnlghcf6pmgcgg4i"
-    },
     "mini.nvim": {
       "type": "Git",
       "repository": {
@@ -87,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "8a7cf7eee8d89bd1b83f6d72f7f3b5598e7ae2cb",
-      "url": "https://github.com/echasnovski/mini.nvim/archive/8a7cf7eee8d89bd1b83f6d72f7f3b5598e7ae2cb.tar.gz",
-      "hash": "0dp3l2cxaiz76nsq2mw10jzhb8gppsa8syd40d9a342g0gmh8v27"
+      "revision": "14145d3769eacdb48aa1cfd21f1e244896a85f68",
+      "url": "https://github.com/echasnovski/mini.nvim/archive/14145d3769eacdb48aa1cfd21f1e244896a85f68.tar.gz",
+      "hash": "1vnfhfjfnw9i1wv8sxj34vrlflkv9klfiin6pdwirzdvp32p5s9k"
     },
     "none-ls.nvim": {
       "type": "Git",

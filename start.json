@@ -1,5 +1,21 @@
 {
   "pins": {
+    "LuaSnip": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "L3MON4D3",
+        "repo": "LuaSnip"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v2.4.0",
+      "revision": "458560534a73f7f8d7a11a146c801db00b081df0",
+      "url": "https://api.github.com/repos/L3MON4D3/LuaSnip/tarball/v2.4.0",
+      "hash": "055mbyszd7gyxib4yi4wsiazs63p4d6ms3sp6x7xya7d0szfkl0n"
+    },
     "kanagawa.nvim": {
       "type": "Git",
       "repository": {
@@ -22,9 +38,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "f1a9dd3d5af48ee9e73f3bfe12d2a1cee36618c2",
-      "url": "https://github.com/nvim-neorocks/lz.n/archive/f1a9dd3d5af48ee9e73f3bfe12d2a1cee36618c2.tar.gz",
-      "hash": "1nw0rs5z8nparsj9w9hvhq2xga6m658yalv5jcsgn9rzdfckl67k"
+      "revision": "01d92029e8c8eba41ef6a5259e39e6434e939230",
+      "url": "https://github.com/nvim-neorocks/lz.n/archive/01d92029e8c8eba41ef6a5259e39e6434e939230.tar.gz",
+      "hash": "016k6f4yywl4i6dz2w045nh61w3f4y4kfdj2msz0s4a50jaqa4qq"
     },
     "nvim-web-devicons": {
       "type": "Git",
