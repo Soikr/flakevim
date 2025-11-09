@@ -11,10 +11,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v2.4.0",
-      "revision": "458560534a73f7f8d7a11a146c801db00b081df0",
-      "url": "https://api.github.com/repos/L3MON4D3/LuaSnip/tarball/v2.4.0",
-      "hash": "055mbyszd7gyxib4yi4wsiazs63p4d6ms3sp6x7xya7d0szfkl0n"
+      "version": "v2.4.1",
+      "revision": "5a1e39223db9a0498024a77b8441169d260c8c25",
+      "url": "https://api.github.com/repos/L3MON4D3/LuaSnip/tarball/v2.4.1",
+      "hash": "1vjn0fwxv89p4dxycwn5lf7c0fgspzymbjp76n27rqnkab6v1qzy"
     },
     "kanagawa.nvim": {
       "type": "Git",
@@ -38,9 +38,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "fd9ff1cb20623c3b7e5e1e51cce95bd4f1f799fc",
-      "url": "https://github.com/nvim-neorocks/lz.n/archive/fd9ff1cb20623c3b7e5e1e51cce95bd4f1f799fc.tar.gz",
-      "hash": "0s5158r965c3pnn7hggl80siw4g0mzcxxs15vahcaw2rrdfw134y"
+      "revision": "5a80de1ccf36011e2f57e9b843efa451554169af",
+      "url": "https://github.com/nvim-neorocks/lz.n/archive/5a80de1ccf36011e2f57e9b843efa451554169af.tar.gz",
+      "hash": "1m8cp5admvwg22sfr8z7i3rga9gyxs6xiarbgqcsn3yfi7si51gm"
     },
     "nvim-web-devicons": {
       "type": "Git",
